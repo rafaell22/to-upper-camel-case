@@ -1,5 +1,4 @@
 /**
- *
  * Converts string to uppercase snake case
  * Examples:
  *   - toUpperSnakeCase('dog') = 'DOG'
@@ -34,15 +33,15 @@ function addUnderscoresBeforeUppercase(str: string): string {
 }   
 
 function removeDuplicatedUnderscores(str: string): string {
-  return str.replace('__', '_');
+  return str.replace('_{2,}', '_');
 }
 
 function removeUnderscoreAtStart(str: string): string {
   return str
-    .replace(/^_/, '');
+    .replace(/^_*/, '');
 }
 
 function removeUndeerscoreAtEnd(str: string): string {
   return str
-    .replace(/_$/, '');
+    .replace(/_*$/, '');
 }

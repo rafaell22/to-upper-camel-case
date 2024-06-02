@@ -33,7 +33,7 @@ function addUnderscoresBeforeUppercase(str: string): string {
 }   
 
 function removeDuplicatedUnderscores(str: string): string {
-  return str.replace('_{2,}', '_');
+  return str.replace(/_+/, '_');
 }
 
 function removeUnderscoreAtStart(str: string): string {

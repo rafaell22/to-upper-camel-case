@@ -3,7 +3,7 @@
     "module": "esnext",
     "moduleResolution": "nodenext",
     "paths": {
-      "#src/*": ["src/*"]
+      "#src/*": ["./src/*"]
     }
   }
 }

@@ -1,4 +1,4 @@
-/**
+  /**
  * Converts string to uppercase snake case
  * Examples:
  *   - toUpperSnakeCase('dog') = 'DOG'

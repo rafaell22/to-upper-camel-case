@@ -12,7 +12,7 @@ export default defineConfig({
     lib: {
       entry: './src/index',
       name: 'toUpperSnakeCase',
-      fileName: 'to-upper-snake-case'
+      fileName: 'index'
     },
   }
 });

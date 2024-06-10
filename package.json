@@ -1,6 +1,6 @@
 {
   "name": "@rafaell22/to-upper-snake-case",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Converts strings to upper snake case.",
   "main": "./dist/to-upper-snake-case.js",
   "exports": {

@@ -1,1 +1,3 @@
-export default './dist';
+import toUpperCamelCase from './dist';
+
+export default toUpperCamelCase;
